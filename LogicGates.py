@@ -10,8 +10,6 @@ class TitleScene(Scene):
 
 
 
-
-
 class LogicGates(Scene):
     def construct(self):
         # AND
@@ -179,8 +177,6 @@ class LogicGates(Scene):
 
 
 
-
-
 class AndGate(Scene):
     def construct(self):
 
@@ -278,8 +274,6 @@ class AndGate(Scene):
             Uncreate(oneO),
         )
         self.wait()
-
-
 
 
 
@@ -381,8 +375,6 @@ class OrGate(Scene):
 
 
 
-
-
 class NotGate(Scene):
     def construct(self):
 
@@ -450,8 +442,6 @@ class NotGate(Scene):
 
 
 
-
-
 class Buffer(Scene):
     def construct(self):
 
@@ -514,8 +504,6 @@ class Buffer(Scene):
             Uncreate(oneO),
         )
         self.wait()
-
-
 
 
 
@@ -645,8 +633,6 @@ class NandGate(Scene):
 
 
 
-
-
 class NorGate(Scene):
     def construct(self):
 
@@ -768,8 +754,6 @@ class NorGate(Scene):
 
 
 
-
-
 class XorGate(Scene):
     def construct(self):
         # Create XOR gate
@@ -869,8 +853,6 @@ class XorGate(Scene):
             Uncreate(zeroO_2),
         )
         self.wait()
-
-
 
 
 
