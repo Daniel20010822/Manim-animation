@@ -8,7 +8,7 @@ class ParabolaScene(Scene):
         k = 0
         
         # Used in x_range: x_range = [startvalue, endvalue]
-        # Detect whether y exceed config["frame_x_radius"] when x is config["frame_x_radius"], so that the circle doesn't go out of the screen.
+        # Detect whether y exceed config["frame_x_radius"] when x is config["frame_x_radius"], so that the center of the circle doesn't go out of the screen.
         startvalue = max(-np.sqrt(4*abs(c)*(config["frame_y_radius"]-k))+h, -config["frame_x_radius"])
         endvalue = min(np.sqrt(4*abs(c)*(config["frame_y_radius"]-k))+h, config["frame_x_radius"])
         e = ValueTracker(startvalue)
