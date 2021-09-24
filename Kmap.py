@@ -30,7 +30,6 @@ class KmapScene(Scene):
         frame1 = SurroundingRectangle(VGroup(frame1_group), color=RED, buff=0.3).round_corners(radius=0.2)
         frame2 = SurroundingRectangle(VGroup(frame2_group), color=RED, buff=0.3).round_corners(radius=0.2)
         frame3 = SurroundingRectangle(VGroup(frame3_group), color=RED, buff=0.3).round_corners(radius=0.2)
-        ones = VGroup(frame1_group, frame2_group, frame3_group)
 
 
         self.play(Write(expression))
